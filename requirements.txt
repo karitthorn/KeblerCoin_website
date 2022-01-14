@@ -39,7 +39,6 @@ pefile==2021.9.3
 Pillow==8.4.0
 pipwin==0.5.1
 platformdirs==2.4.1
-PyAudio @ file:///C:/Users/Acer%20Nitro%205/pipwin/PyAudio-0.2.11-cp310-cp310-win_amd64.whl
 PyAutoGUI==0.9.53
 pycodestyle==2.8.0
 pycparser==2.20
