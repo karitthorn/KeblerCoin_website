@@ -64,6 +64,8 @@ a{
     margin-bottom: 30px;
     position: relative;
 }
+
+
 .col-2{
     flex-basis: 55%;
     min-width: 300px;
@@ -200,6 +202,12 @@ span{
      color: yellow;
 
  }
+ .underline{
+     text-decoration: underline;
+ }
+ .buycoin{
+    font-size: 12px;
+ }
 }
 /* ---------------------------------------------------------------- */
 .community{
@@ -207,3 +215,8 @@ span{
     text-decoration: underline;
 }
 /* ---------------------------------------------------------------- */
+#rcorners1 {
+    border-radius: 50px;
+    padding: 20px; 
+    width: 300px;   
+}

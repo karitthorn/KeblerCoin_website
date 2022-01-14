@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KeblerCoin</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
     <!-- Poping Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,27 +11,27 @@
   </head>
   <body>
       <div class="hero">
-          <img src="/imagles/triangle-top.png" class="triangle1">
-          <img src="/imagles/triangle-left.png" class="triangle2">
-          <img src="/imagles/circle.png" class="circle">
+          <img src="/static/triangle-top.png" class="triangle1">
+          <img src="/static/triangle-left.png" class="triangle2">
+          <img src="/static/circle.png" class="circle">
           <nav>
-              <img src="/imagles/logocoin.png" class = "logo">
+              <img src="/static/logocoin.png" class = "logo">
               <ul>
                   
                   <li><a href="" class="hiddenforphone">หน้าหลัก</a></li>
-                  <li><a href="" class="hiddenforphone">ชื้อเหรียญ</a></li>
-                  <li><a href="" class="hiddenforphone">🟣Discord</a></li>
-                  <li><a href="" class="hiddenforphone">🔵Telegram</a></li>
-                  <li><a href="" class="hiddenforphone">🌐English&nbsp&nbsp</a></li>
+                  <li><a href="/buycoin" class="hiddenforphone">🟡Contract</a></li>
+                  <li><a href="https://discord.gg/jrgQKT2Eyu" class="hiddenforphone">🟣Discord</a></li>
+                  <li><a href="https://t.me/+3KW2qM7v0VhkZTll" class="hiddenforphone">🔵Telegram</a></li>
+                  <li><a href="/en" class="hiddenforphone">🌐EN/TH&nbsp&nbsp</a></li>
                 
               </ul>
-              <a href="" class="exampleClass"><div class="blacktext">White Paper</div></a>
+              <a href="/whitepaper" class="exampleClass"><div class="blacktext">White Paper</div></a>
           </nav>
 
           <div class="row">
               <div class="col-1">
                   <img src="https://previews.dropbox.com/p/thumb/ABakJIbesxwhTjaCoPAeJGL2EJzM5C4GyUrMfckC23bqPWU9IHdQ9q0JJ1IPphURIGCLpDV7-1HJDTN0yg813WouVG1dkFQrpMHo1t-dqi5TXpKlKM3qvC71iPeL2k8LAy6nGnSpMkfnSOi8QRxu44pDtwaGiY5QfFZDT8liMSJb4agj_CRvkghjhLDXQZ2AVrmDrajLvNxmV2otP-ZDlKZdcs4Gcxc1VxkFVIb_vWdZSdN6lrxta2Q--7G5m-OUw887YesCl9U-fcSxW81rQ_ggmeQ725ZJ-BuiTVzxLYnjptBTXLEFMnVCNgdZ-R1fFX2CBjPa5mYTPaK1uEKk8OIJYrGFIBzHlksnFtuPUOGxfw/p.png">
-                  <img src="imagles/elements.png" class="elements">
+                  <img src="/static/elements.png" class="elements">
               </div>
               <div class="col-2">
                   <h1>สวัสดี👋<br><span>Kebler</span>Coin</h1>
@@ -40,9 +40,11 @@
                       เเละยังมีเเผนการพัฒนาอื่นๆ อีกในอนาคต<br>
                       <div class="yellow">(สามารถชื้อเหรียญ ผ่าน Pancakeswap ได้)</div>
                       
-                      <h3>🎉เพียงเข้าร่วม <a href="https://discord.gg/jrgQKT2Eyu" class="community">Discord</a> หรือ <a href="" class="community">Telegram</a> รับเหรียญไปเลยฟรี!!</h3>
+                      <h3>🎉เพียงเข้าร่วม <a href="https://discord.gg/jrgQKT2Eyu" class="community">Discord</a> หรือ <a href="https://t.me/+3KW2qM7v0VhkZTll" class="community">Telegram</a> รับเหรียญไปเลยฟรี!!</h3>
                   </p>
                       <a href="https://poocoin.app/tokens/0x0b1ff25171a1b43c03f30b5814475ba17e6e5f37" class="btn">ดูราคาตอนนี้!</a> <a href="https://bscscan.com/token/0x0b1Ff25171a1b43c03f30B5814475ba17E6e5F37">หรือ Bscscan</a>
+                      <br><br><br>
+                      <div class="yellow"><a href="/en"><center>🌐EN/TH🌐</center></a></div>
             </div>
       </div>
   </body>

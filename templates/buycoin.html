@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KeblerCoin</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='styles/style.css') }}"
+    />
+    <!-- Poping Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="hero">
+      <img src="/static/triangle-top.png" class="triangle1" />
+      <img src="/static/triangle-left.png" class="triangle2" />
+      <img src="/static/circle.png" class="circle" />
+      <nav>
+        <a href="/"><img src="/static/logocoin.png" class="logo" /></a>
+      </nav>
+
+      <h2>
+        <div class="btn">
+          <div class="buycoin"><center>Contract : 0x0b1Ff25171a1b43c03f30B5814475ba17E6e5F37</center></div>
+        </div>
+      </h2>
+      <div class="row">
+        <div class="col-1">
+          <img src="/static/swap.png" id = "rcorners1" />
+        </div>
+        <div class="col-2">
+            
+            <div class="hiddenforphone">
+            <br><br><br>
+            </div>
+            <h3>สามารถชื้อเหรียญ ได้ผ่าน Pancakeswap <br />
+            โดยนำ Contract ไปใส่ในช่อง select a Token
+            เเล้วกด import</h3>
+            <h3>(You can buy this coin by using Pancakeswap)<br /></h3>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
