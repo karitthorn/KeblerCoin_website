@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: keblercoin.herokuapp.com
+Token: e59c6db200d520724eb00d255d57ee1c8caf7c013d3b0d2b38b040b1601f6ffc
