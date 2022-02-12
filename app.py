@@ -10,7 +10,7 @@ def indexthai():
 def indexenglish():
     return render_template("indexen.html")
 
-@app.route("/whitepaper") #don't use now
+@app.route("/whitepaper") #!don't use now
 def whitepaper():
     return render_template("whitepaper.html")
 
